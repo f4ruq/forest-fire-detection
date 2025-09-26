@@ -9,12 +9,21 @@ In this project, a **Convolutional Neural Network (CNN)** model was developed to
 
 The training dataset was created by **combining three different public datasets**. However, since the **nonfire class was underrepresented**, the class distribution is imbalanced. It has been observed that increasing the size of the nonfire class would further improve the model’s accuracy.  
 
+<img width="989" height="490" alt="distribution" src="https://github.com/user-attachments/assets/0fc578b5-b02a-45dc-9db8-4e1cadeabecd" />
+
+
+<img width="969" height="990" alt="classes" src="https://github.com/user-attachments/assets/9aeced86-adb8-4e6b-8802-71e055d61a12" />
+
+
 ## Metrics  
 
 - Test Accuracy: **~91%**  
 - High precision, recall, and F1-score were achieved for the fire class.  
 - Performance for the nonfire class was lower due to imbalance, but it can be improved with additional data.  
 - Confusion matrix and classification report analyses confirmed the model’s strong performance in fire detection.  
+
+<img width="1189" height="390" alt="accuracy" src="https://github.com/user-attachments/assets/04243ec0-839a-4273-a043-0863beb7a936" />
+
 
 ## Extras  
 
