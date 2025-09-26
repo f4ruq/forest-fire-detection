@@ -1,5 +1,50 @@
 # forest-fire-detection  
+# (EN)
 
+This repository contains a deep learning project developed for **forest fire detection**.  
+
+## Introduction  
+
+In this project, a **Convolutional Neural Network (CNN)** model was developed to classify forest fire images into two categories: **fire** and **nonfire**.  
+
+The training dataset was created by **combining three different public datasets**. However, since the **nonfire class was underrepresented**, the class distribution is imbalanced. It has been observed that increasing the size of the nonfire class would further improve the model’s accuracy.  
+
+## Metrics  
+
+- Test Accuracy: **~91%**  
+- High precision, recall, and F1-score were achieved for the fire class.  
+- Performance for the nonfire class was lower due to imbalance, but it can be improved with additional data.  
+- Confusion matrix and classification report analyses confirmed the model’s strong performance in fire detection.  
+
+## Extras  
+
+Potential additional work for the project:  
+- A simple demo can be built with a **Streamlit interface**.  
+- The model can be converted to **TFLite** for deployment on mobile/edge devices.  
+- The data collection process can be made real-time to build an end-to-end system.  
+
+## Conclusion and Future Work  
+
+This study presents an effective approach to detecting forest fires from image data. Possible future improvements include:  
+- **Expanding the nonfire class** for more balanced results,  
+- **Integrating real-time camera data** for practical deployment.  
+
+The project can be further developed in the future with new technologies and methods to improve its quality.  
+
+## Links  
+
+You can access the Kaggle notebook used for training and evaluation here:  
+https://www.kaggle.com/code/xubustein/forest-fire-detection  
+
+Datasets:  
+
+https://www.kaggle.com/datasets/mohnishsaiprasad/forest-fire-images?select=Data  
+
+https://www.kaggle.com/datasets/kutaykutlu/forest-fire?select=test_big  
+
+https://www.kaggle.com/datasets/elmadafri/the-wildfire-dataset  
+
+# (TR)
 Bu repo, **orman yangını tespiti** için hazırlanmış bir derin öğrenme projesini içermektedir.  
 
 ## Giriş  
@@ -36,6 +81,7 @@ Eğitim ve değerlendirme süreçlerinde kullanılan Kaggle not defterine burada
 https://www.kaggle.com/code/xubustein/forest-fire-detection
 
 Veri setleri:
+
 https://www.kaggle.com/datasets/mohnishsaiprasad/forest-fire-images?select=Data
 
 https://www.kaggle.com/datasets/kutaykutlu/forest-fire?select=test_big
